@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/noble_quran3"
+      tools:context=".ProfileActivity">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="30dp"
+           >
+
+
+
+          <Button
+              android:id="@+id/zikir"
+              android:layout_width="135dp"
+              android:layout_height="135dp"
+              android:layout_gravity="bottom"
+              android:paddingTop="30dp"
+              android:textAlignment="center"
+              android:paddingLeft="3dp"
+              android:text="Zikir"
+              android:drawableTop="@drawable/tasbih"
+              android:textColor="#000"
+              android:background="#fff"
+              android:layout_marginLeft="12dp"
+              android:textSize="14dp" />
+
+          <Button
+              android:id="@+id/durud"
+              android:layout_width="135dp"
+              android:layout_height="135dp"
+              android:layout_gravity="bottom"
+              android:paddingTop="30dp"
+              android:layout_marginTop="10dp"
+              android:textAlignment="center"
+              android:paddingLeft="3dp"
+              android:text="Durud Sharif"
+              android:drawableTop="@drawable/mos"
+              android:textColor="#000"
+              android:layout_marginLeft="12dp"
+              android:background="#fff"
+              android:textSize="14dp" />
+          <Button
+              android:id="@+id/hadis"
+              android:layout_width="135dp"
+              android:layout_height="135dp"
+              android:layout_gravity="bottom"
+              android:paddingTop="30dp"
+              android:textAlignment="center"
+              android:paddingLeft="3dp"
+              android:layout_marginTop="10dp"
+              android:drawableTop="@drawable/duah"
+              android:text="Hadis"
+              android:layout_marginLeft="12dp"
+              android:textColor="#000"
+              android:background="#fff"
+              android:textSize="14dp" />
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="30dp">>
+
+
+          <Button
+              android:id="@+id/ayatul"
+              android:layout_width="135dp"
+              android:layout_height="135dp"
+              android:layout_gravity="bottom"
+              android:paddingTop="30dp"
+              android:textAlignment="center"
+              android:paddingLeft="3dp"
+              android:text="Ayatul Kursi"
+              android:drawableTop="@drawable/jhha"
+              android:textColor="#000"
+              android:background="#fff"
+              android:textSize="14dp" />
+
+          <Button
+              android:id="@+id/duah"
+              android:layout_width="135dp"
+              android:layout_height="135dp"
+              android:layout_gravity="bottom"
+              android:paddingTop="30dp"
+              android:layout_marginTop="10dp"
+              android:textAlignment="center"
+              android:paddingLeft="3dp"
+              android:drawableTop="@drawable/qurann"
+              android:text="Surah"
+              android:textColor="#000"
+              android:background="#fff"
+              android:textSize="14dp" />
+
+          <Button
+              android:id="@+id/about"
+              android:layout_width="135dp"
+              android:layout_height="135dp"
+              android:layout_gravity="bottom"
+              android:paddingTop="30dp"
+              android:layout_marginTop="10dp"
+              android:textAlignment="center"
+              android:paddingLeft="3dp"
+              android:text="Doah"
+              android:drawableTop="@drawable/dua"
+              android:textColor="#000"
+              android:background="#fff"
+              android:textSize="14dp" />
+
+
+
+
+       </LinearLayout>
+
+    </LinearLayout>

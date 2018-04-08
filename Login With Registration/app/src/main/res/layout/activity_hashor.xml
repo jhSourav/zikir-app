@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HashorActivity">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Bismillah"
+                    android:textSize="25dp"
+                    android:background="#e4dfdf"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="সূরা আল হাশর"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:padding="20dp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hashorr"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hashorbangla"
+                    android:textColor="#000"
+                    android:padding="20dp"
+                    android:textSize="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hashoronubad"
+                    android:textColor="#000"
+                    android:padding="20dp"
+                    android:textSize="20dp"
+                    android:paddingBottom="30dp"
+
+
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="সূরা এখলাছ"
+                    android:textSize="30dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="10dp"
+                    android:textColor="#000"
+                    android:paddingBottom="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ikhlas"
+                    android:textSize="25dp"
+                    android:padding="30dp"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ikhlasbangla"
+                    android:textSize="20dp"
+                    android:padding="20dp"
+                    android:textColor="#000"
+                    />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
